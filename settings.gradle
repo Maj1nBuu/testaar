@@ -1,0 +1,4 @@
+rootProject.name='DemoAar'
+include ':app'
+include ':liba'
+include ':libb'
