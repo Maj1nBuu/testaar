@@ -16,7 +16,8 @@ maven库使用demo
 ### 网站信息填写和承接内容的准备 ###
 1.create a organization [https://bintray.com/](https://bintray.com/)
 	键入unique identifier和name
-2.add a reposity which is maven type in origanization
+
+2.add a repository which is maven type in organization
 3.add a package in maven
 
 ### 本地项目添加规格内容并上传到maven库 ###
@@ -44,8 +45,8 @@ BINTRAY_USERNAME对应bintray中你的账户昵称,BINTRAY_API_KEY在Edit Profil
 
 	gradlew clean build bintrayUpload -PbintrayUser=BINTRAY_USERNAME -PbintrayKey=BINTRAY_API_KEY -PdryRun=false
 
-结果**Bulid Successful** 表明上传成功.
-结果**Bulid Failed** 可查看详细的原因.
+结果**Build Successful** 表明上传成功.
+结果**Build Failed** 可查看详细的原因.
 
 ### 使用maven库 ###
 1.在项目的build.gradle中添加
