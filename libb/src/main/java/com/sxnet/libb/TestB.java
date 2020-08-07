@@ -3,7 +3,7 @@ package com.sxnet.libb;
 /**
  * Created by MajinBuu on 2020/8/6 0006.
  *
- * @desc .
+ * test class
  */
 public class TestB {
 

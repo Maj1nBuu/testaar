@@ -1,5 +1,5 @@
 apply plugin: 'com.android.library'
-
+//apply plugin: 'com.novoda.bintray-release'
 android {
     compileSdkVersion 29
     buildToolsVersion "29.0.3"
@@ -8,7 +8,7 @@ android {
         minSdkVersion 19
         targetSdkVersion 29
         versionCode 1
-        versionName "1.0"
+        versionName "1.0.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles 'consumer-rules.pro'
@@ -31,3 +31,13 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
 }
+
+/*
+publish {
+    userOrg = 'buu1212' //bintray账户下某个组织id
+    groupId = 'com.sxnet.demoaar' //maven仓库下库的包名，一般为模块包名
+    artifactId = 'testLibb' //项目名称
+    publishVersion = '1.0.0' //版本号
+    desc = 'test lib for android' //项目介绍，可以不写
+    website = '' //项目主页，可以不写
+}*/

@@ -1,18 +1,15 @@
 package com.sxnet.liba;
 
-import com.google.gson.Gson;
+import com.sxnet.libb.TestB;
 
 /**
  * Created by MajinBuu on 2020/8/6 0006.
  *
- * @desc .
+ * test class TestA
  */
 public class TestA {
 
-    public String compute() {
-//        return new TestB().getValue(1, 1);
-        Gson gson = new Gson();
-        String aaa = gson.toJson("aaa");
-        return aaa;
+    public int compute() {
+        return new TestB().getValue(1, 1);
     }
 }
