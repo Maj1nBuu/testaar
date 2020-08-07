@@ -18,6 +18,7 @@ maven库练习demo
 	键入unique identifier和name
 
 2.add a repository which is maven type in organization
+
 3.add a package in maven
 
 ### 本地项目添加规格内容并上传到maven库 ###
